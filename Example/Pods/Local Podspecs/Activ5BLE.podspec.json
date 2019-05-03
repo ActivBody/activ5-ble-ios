@@ -17,7 +17,7 @@
     "ios": "10.0"
   },
   "source": {
-    "http": "https://github.com/martin-key/RSBarcodes_Swift/releases/download/2.3.3/Activ5Device.framework.zip"
+    "http": "https://github.com/martin-key/RSBarcodes_Swift/releases/download/2.3.3/Activ5Device.zip"
   },
   "source_files": "Activ5Device.framework/Headers/Activ5Device-Swift.h",
   "vendored_frameworks": "Activ5Device.framework",

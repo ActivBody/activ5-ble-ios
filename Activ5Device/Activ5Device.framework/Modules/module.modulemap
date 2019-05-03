@@ -1,0 +1,11 @@
+framework module Activ5DeviceDev {
+  umbrella header "Activ5DeviceDev-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Activ5DeviceDev.Swift {
+    header "Activ5DeviceDev-Swift.h"
+    requires objc
+}

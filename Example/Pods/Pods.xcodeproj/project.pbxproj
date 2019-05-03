@@ -19,11 +19,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		07761FB1069FC81B682AB790F932D9E7 /* Pods-Activ5-Device_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 149FE7EF07427ED4A24CEB16CFCD0C76 /* Pods-Activ5-Device_Example-dummy.m */; };
+		07761FB1069FC81B682AB790F932D9E7 /* Pods-Activ5-Device_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D87C4CB31B1665240EEBA2A22DA4BF /* Pods-Activ5-Device_Example-dummy.m */; };
 		4CEA6BF577B17C660DA36B999FB85858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		8322AF13E5AC66CBCF259B6ADD37CCA8 /* Pods-Activ5-Device_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1662FC7EA96D7E708A3CBC87BEFEFB22 /* Pods-Activ5-Device_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBF467B93587CFDE939D8D008EF8203A /* Pods-Activ5-Device_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 681C903AF1DE9BC275D1D44868FFD132 /* Pods-Activ5-Device_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC3750C5A465ED425C4C47818F41231C /* Pods-Activ5-Device_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A657C0545C48E14B5EDB44F36A90437B /* Pods-Activ5-Device_Tests-dummy.m */; };
+		8322AF13E5AC66CBCF259B6ADD37CCA8 /* Pods-Activ5-Device_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83715A79EFF8ABB5A6F3DE75374DA30B /* Pods-Activ5-Device_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBF467B93587CFDE939D8D008EF8203A /* Pods-Activ5-Device_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FAE6601F36FBEB294D4D9ED9172B17C /* Pods-Activ5-Device_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC3750C5A465ED425C4C47818F41231C /* Pods-Activ5-Device_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDAAC9A0875E93AABD4DEF1C59AC084 /* Pods-Activ5-Device_Tests-dummy.m */; };
 		FCAEE897C0720F9068889C955EF486E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,30 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		149FE7EF07427ED4A24CEB16CFCD0C76 /* Pods-Activ5-Device_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Activ5-Device_Example-dummy.m"; sourceTree = "<group>"; };
-		1662FC7EA96D7E708A3CBC87BEFEFB22 /* Pods-Activ5-Device_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Activ5-Device_Example-umbrella.h"; sourceTree = "<group>"; };
-		2C43639FFAAC2149F88BCF47BCD172D1 /* Pods-Activ5-Device_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Activ5-Device_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2EB0ABB9AB342D35ADA389AF9B577954 /* Activ5BLE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Activ5BLE.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		559D46620072DB8E7B454E173F1C1A62 /* Pods-Activ5-Device_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Example-Info.plist"; sourceTree = "<group>"; };
-		586C5DB453E3EE73495FE37A893F0FE3 /* Pods-Activ5-Device_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Activ5-Device_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6734946B79B44B6A033D16B989FC0D4A /* Pods-Activ5-Device_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Activ5-Device_Tests.modulemap"; sourceTree = "<group>"; };
-		681C903AF1DE9BC275D1D44868FFD132 /* Pods-Activ5-Device_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Activ5-Device_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7146CFF634F2D118E24F8DBE440EC1A7 /* Pods-Activ5-Device_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7A7831932CC93CC0B52951EF6D2D808D /* Pods-Activ5-Device_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		828417B7072EB355C8BC59727AE5A91B /* Pods-Activ5-Device_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		19D87C4CB31B1665240EEBA2A22DA4BF /* Pods-Activ5-Device_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Activ5-Device_Example-dummy.m"; sourceTree = "<group>"; };
+		1A375BFACE57B0A8FC6FAA84A0BBE6E1 /* Pods-Activ5-Device_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Activ5-Device_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A6CFDA32A95539BB554D28E076325B2 /* Pods-Activ5-Device_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Activ5-Device_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3376C627F00CB26EB922A3F79BC8A384 /* Pods-Activ5-Device_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Example-Info.plist"; sourceTree = "<group>"; };
+		3AEDEA09B61D8DD836FFE07477F990AD /* Pods-Activ5-Device_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5C43547472BBBB44FAA1675BE164B632 /* Pods-Activ5-Device_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5E2880CA3E4F19A26E62993570D1AE9A /* Pods-Activ5-Device_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Activ5-Device_Example.modulemap"; sourceTree = "<group>"; };
+		665E9062B1ADA1C2825C5649F55A9D11 /* Activ5Device-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Activ5Device-Swift.h"; path = "Activ5Device.framework/Headers/Activ5Device-Swift.h"; sourceTree = "<group>"; };
+		77AC5435D509C756A2AE8EAF58999271 /* Pods-Activ5-Device_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Activ5-Device_Tests.modulemap"; sourceTree = "<group>"; };
+		7FAE6601F36FBEB294D4D9ED9172B17C /* Pods-Activ5-Device_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Activ5-Device_Tests-umbrella.h"; sourceTree = "<group>"; };
+		83715A79EFF8ABB5A6F3DE75374DA30B /* Pods-Activ5-Device_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Activ5-Device_Example-umbrella.h"; sourceTree = "<group>"; };
+		8AD206068A36B3AB3DAA11E2DBA00B22 /* Pods-Activ5-Device_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Tests-Info.plist"; sourceTree = "<group>"; };
+		8AFE65BC23B43CE13B6631DB7C38B830 /* Activ5Device.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Activ5Device.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE42DDBB61591FD678C97C72329CF09 /* Pods_Activ5_Device_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Activ5_Device_Example.framework; path = "Pods-Activ5-Device_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A657C0545C48E14B5EDB44F36A90437B /* Pods-Activ5-Device_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Activ5-Device_Tests-dummy.m"; sourceTree = "<group>"; };
-		AAC07F804074182EE98D796DC9CBB1DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BAD696D705E8855EB00D708D25763CE4 /* Pods-Activ5-Device_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BDBE57CF6B0256F4A8CC03F539328080 /* Activ5BLE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Activ5BLE.xcconfig; sourceTree = "<group>"; };
-		C8F8CA32410079BCB35D237396C6F2A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A48403D147A530C6EFE5D5A55E5C5F7F /* Activ5BLE.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Activ5BLE.xcconfig; sourceTree = "<group>"; };
+		A98D1A883C359B4ABAECAED00124E6B6 /* Pods-Activ5-Device_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAE525570352F2316541692C1406B57E /* Pods-Activ5-Device_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E7AB3DD1187A86A31D3C66DA92499F7A /* Pods-Activ5-Device_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E952E843644EC249A40993D8C2A672B4 /* Pods-Activ5-Device_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2A4121213A865A6845470065588B68A /* Pods-Activ5-Device_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBEAFD476D68878A3B007D44D7D53CED /* Pods-Activ5-Device_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBE4B3EA88B5DB5D5E24F15104A51A20 /* Pods_Activ5_Device_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Activ5_Device_Tests.framework; path = "Pods-Activ5-Device_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0D6906CBB498D99E6787777ACA8C6B5 /* Pods-Activ5-Device_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Activ5-Device_Example.modulemap"; sourceTree = "<group>"; };
-		F65F9E2C15768E37C97F77D43C791CE0 /* Pods-Activ5-Device_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Tests-Info.plist"; sourceTree = "<group>"; };
+		ECDAAC9A0875E93AABD4DEF1C59AC084 /* Pods-Activ5-Device_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Activ5-Device_Tests-dummy.m"; sourceTree = "<group>"; };
+		FF0AE0A921E1FF73CF4B5CEC185D3EAC /* Pods-Activ5-Device_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Activ5-Device_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,82 +91,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AEBA2AA5E6277A975D548005F7F9A25 /* Pods-Activ5-Device_Example */ = {
+		08A371934CA7E495ACD578FF76599626 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F0D6906CBB498D99E6787777ACA8C6B5 /* Pods-Activ5-Device_Example.modulemap */,
-				2C43639FFAAC2149F88BCF47BCD172D1 /* Pods-Activ5-Device_Example-acknowledgements.markdown */,
-				828417B7072EB355C8BC59727AE5A91B /* Pods-Activ5-Device_Example-acknowledgements.plist */,
-				149FE7EF07427ED4A24CEB16CFCD0C76 /* Pods-Activ5-Device_Example-dummy.m */,
-				559D46620072DB8E7B454E173F1C1A62 /* Pods-Activ5-Device_Example-Info.plist */,
-				1662FC7EA96D7E708A3CBC87BEFEFB22 /* Pods-Activ5-Device_Example-umbrella.h */,
-				E952E843644EC249A40993D8C2A672B4 /* Pods-Activ5-Device_Example.debug.xcconfig */,
-				7146CFF634F2D118E24F8DBE440EC1A7 /* Pods-Activ5-Device_Example.release.xcconfig */,
+				D8747391E5434AAA3787EC14162E46D9 /* Activ5BLE */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		093809CEAE2E79CD080892A9C51077FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A48403D147A530C6EFE5D5A55E5C5F7F /* Activ5BLE.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Activ5BLE";
+			sourceTree = "<group>";
+		};
+		0C8D9CC538426B48E9DBB7DD6EE8A970 /* Pods-Activ5-Device_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5E2880CA3E4F19A26E62993570D1AE9A /* Pods-Activ5-Device_Example.modulemap */,
+				1A6CFDA32A95539BB554D28E076325B2 /* Pods-Activ5-Device_Example-acknowledgements.markdown */,
+				A98D1A883C359B4ABAECAED00124E6B6 /* Pods-Activ5-Device_Example-acknowledgements.plist */,
+				19D87C4CB31B1665240EEBA2A22DA4BF /* Pods-Activ5-Device_Example-dummy.m */,
+				FF0AE0A921E1FF73CF4B5CEC185D3EAC /* Pods-Activ5-Device_Example-frameworks.sh */,
+				3376C627F00CB26EB922A3F79BC8A384 /* Pods-Activ5-Device_Example-Info.plist */,
+				83715A79EFF8ABB5A6F3DE75374DA30B /* Pods-Activ5-Device_Example-umbrella.h */,
+				CAE525570352F2316541692C1406B57E /* Pods-Activ5-Device_Example.debug.xcconfig */,
+				3AEDEA09B61D8DD836FFE07477F990AD /* Pods-Activ5-Device_Example.release.xcconfig */,
 			);
 			name = "Pods-Activ5-Device_Example";
 			path = "Target Support Files/Pods-Activ5-Device_Example";
-			sourceTree = "<group>";
-		};
-		29E7F345C09514864389197393FAB151 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2EB0ABB9AB342D35ADA389AF9B577954 /* Activ5BLE.podspec */,
-				AAC07F804074182EE98D796DC9CBB1DA /* LICENSE */,
-				C8F8CA32410079BCB35D237396C6F2A0 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		31083E9529791E0DD05D3028132DC9A2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4105301676323E02916C4F2800E66E21 /* Activ5BLE */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		318E0C24D81317476B50AC0B7691417F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1AEBA2AA5E6277A975D548005F7F9A25 /* Pods-Activ5-Device_Example */,
-				4C36027060C8D772A447BAF707CB7FB9 /* Pods-Activ5-Device_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4105301676323E02916C4F2800E66E21 /* Activ5BLE */ = {
-			isa = PBXGroup;
-			children = (
-				29E7F345C09514864389197393FAB151 /* Pod */,
-				85F2AD36F3B7B181E7FA35940CF63C1C /* Support Files */,
-			);
-			name = Activ5BLE;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4C36027060C8D772A447BAF707CB7FB9 /* Pods-Activ5-Device_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6734946B79B44B6A033D16B989FC0D4A /* Pods-Activ5-Device_Tests.modulemap */,
-				586C5DB453E3EE73495FE37A893F0FE3 /* Pods-Activ5-Device_Tests-acknowledgements.markdown */,
-				E7AB3DD1187A86A31D3C66DA92499F7A /* Pods-Activ5-Device_Tests-acknowledgements.plist */,
-				A657C0545C48E14B5EDB44F36A90437B /* Pods-Activ5-Device_Tests-dummy.m */,
-				F65F9E2C15768E37C97F77D43C791CE0 /* Pods-Activ5-Device_Tests-Info.plist */,
-				681C903AF1DE9BC275D1D44868FFD132 /* Pods-Activ5-Device_Tests-umbrella.h */,
-				7A7831932CC93CC0B52951EF6D2D808D /* Pods-Activ5-Device_Tests.debug.xcconfig */,
-				BAD696D705E8855EB00D708D25763CE4 /* Pods-Activ5-Device_Tests.release.xcconfig */,
-			);
-			name = "Pods-Activ5-Device_Tests";
-			path = "Target Support Files/Pods-Activ5-Device_Tests";
-			sourceTree = "<group>";
-		};
-		85F2AD36F3B7B181E7FA35940CF63C1C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BDBE57CF6B0256F4A8CC03F539328080 /* Activ5BLE.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Activ5BLE";
 			sourceTree = "<group>";
 		};
 		91E50F3402E0A4E2C43937B845D8EF82 /* Products */ = {
@@ -186,14 +142,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		BF8B2CC9B0FCED8CBF358A58ECFD1923 /* Pods-Activ5-Device_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				77AC5435D509C756A2AE8EAF58999271 /* Pods-Activ5-Device_Tests.modulemap */,
+				1A375BFACE57B0A8FC6FAA84A0BBE6E1 /* Pods-Activ5-Device_Tests-acknowledgements.markdown */,
+				D2A4121213A865A6845470065588B68A /* Pods-Activ5-Device_Tests-acknowledgements.plist */,
+				ECDAAC9A0875E93AABD4DEF1C59AC084 /* Pods-Activ5-Device_Tests-dummy.m */,
+				8AD206068A36B3AB3DAA11E2DBA00B22 /* Pods-Activ5-Device_Tests-Info.plist */,
+				7FAE6601F36FBEB294D4D9ED9172B17C /* Pods-Activ5-Device_Tests-umbrella.h */,
+				DBEAFD476D68878A3B007D44D7D53CED /* Pods-Activ5-Device_Tests.debug.xcconfig */,
+				5C43547472BBBB44FAA1675BE164B632 /* Pods-Activ5-Device_Tests.release.xcconfig */,
+			);
+			name = "Pods-Activ5-Device_Tests";
+			path = "Target Support Files/Pods-Activ5-Device_Tests";
+			sourceTree = "<group>";
+		};
+		C88C66EEDA076F12F9EC326D6C483FFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C8D9CC538426B48E9DBB7DD6EE8A970 /* Pods-Activ5-Device_Example */,
+				BF8B2CC9B0FCED8CBF358A58ECFD1923 /* Pods-Activ5-Device_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				31083E9529791E0DD05D3028132DC9A2 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				08A371934CA7E495ACD578FF76599626 /* Pods */,
 				91E50F3402E0A4E2C43937B845D8EF82 /* Products */,
-				318E0C24D81317476B50AC0B7691417F /* Targets Support Files */,
+				C88C66EEDA076F12F9EC326D6C483FFF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +182,25 @@
 			isa = PBXGroup;
 			children = (
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8747391E5434AAA3787EC14162E46D9 /* Activ5BLE */ = {
+			isa = PBXGroup;
+			children = (
+				665E9062B1ADA1C2825C5649F55A9D11 /* Activ5Device-Swift.h */,
+				DF790885DFCF0441804938C741C7FF42 /* Frameworks */,
+				093809CEAE2E79CD080892A9C51077FE /* Support Files */,
+			);
+			name = Activ5BLE;
+			path = Activ5BLE;
+			sourceTree = "<group>";
+		};
+		DF790885DFCF0441804938C741C7FF42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE65BC23B43CE13B6631DB7C38B830 /* Activ5Device.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -347,7 +347,7 @@
 /* Begin XCBuildConfiguration section */
 		2D37EACC068DB48C80159C7947FB8394 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDBE57CF6B0256F4A8CC03F539328080 /* Activ5BLE.xcconfig */;
+			baseConfigurationReference = A48403D147A530C6EFE5D5A55E5C5F7F /* Activ5BLE.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -421,7 +421,7 @@
 		};
 		4472E4FA484164790E168974EAE064B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A7831932CC93CC0B52951EF6D2D808D /* Pods-Activ5-Device_Tests.debug.xcconfig */;
+			baseConfigurationReference = DBEAFD476D68878A3B007D44D7D53CED /* Pods-Activ5-Device_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -455,7 +455,7 @@
 		};
 		4F00FFDBA2931D9CAD33352D8FA5E764 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7146CFF634F2D118E24F8DBE440EC1A7 /* Pods-Activ5-Device_Example.release.xcconfig */;
+			baseConfigurationReference = 3AEDEA09B61D8DD836FFE07477F990AD /* Pods-Activ5-Device_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -554,7 +554,7 @@
 		};
 		62DDC9E34E58DB0BEF3683B9A95649B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E952E843644EC249A40993D8C2A672B4 /* Pods-Activ5-Device_Example.debug.xcconfig */;
+			baseConfigurationReference = CAE525570352F2316541692C1406B57E /* Pods-Activ5-Device_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -588,7 +588,7 @@
 		};
 		83CD537301EE3E75765EBFC34FB179F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDBE57CF6B0256F4A8CC03F539328080 /* Activ5BLE.xcconfig */;
+			baseConfigurationReference = A48403D147A530C6EFE5D5A55E5C5F7F /* Activ5BLE.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -603,7 +603,7 @@
 		};
 		9C34861A97B657BE043BE664BDE99D0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAD696D705E8855EB00D708D25763CE4 /* Pods-Activ5-Device_Tests.release.xcconfig */;
+			baseConfigurationReference = 5C43547472BBBB44FAA1675BE164B632 /* Pods-Activ5-Device_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
