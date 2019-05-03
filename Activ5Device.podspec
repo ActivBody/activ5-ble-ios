@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.tvos.deployment_target = '10.0'
   
-  s.source = {:http => 'https://github.com/martin-key/RSBarcodes_Swift/releases/download/2.3.3/Activ5Device.zip'}
+  s.source = {:http => 'https://github.com/ActivBody/activ5-ble-ios/releases/download/0.1.1/Activ5Device.zip'}
   
   s.source_files = 'Activ5Device.framework/Headers/Activ5Device-Swift.h'
   s.vendored_frameworks = 'Activ5Device.framework'
