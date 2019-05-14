@@ -1,4 +1,4 @@
-# Activ5-Device
+# Activ5Device
 
 [![CI Status](https://img.shields.io/travis/starbuckbg/Activ5-Device.svg?style=flat)](https://travis-ci.org/starbuckbg/Activ5-Device)
 [![Version](https://img.shields.io/cocoapods/v/Activ5-Device.svg?style=flat)](https://cocoapods.org/pods/Activ5-Device)
