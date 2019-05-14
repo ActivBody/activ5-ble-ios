@@ -3,7 +3,7 @@
 //  Activ5-Device
 //
 //  Created by starbuckbg on 08/27/2018.
-//  Copyright (c) 2018 starbuckbg. All rights reserved.
+//  Copyright (c) 2019 ActivBody Inc. <https://activ5.com>. All rights reserved.
 //
 
 import UIKit

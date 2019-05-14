@@ -183,12 +183,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="Activ5DeviceDev",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="Activ5Device",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 
-SWIFT_CLASS("_TtC15Activ5DeviceDev15A5DeviceManager")
+SWIFT_CLASS("_TtC12Activ5Device15A5DeviceManager")
 @interface A5DeviceManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -197,7 +197,7 @@ SWIFT_CLASS("_TtC15Activ5DeviceDev15A5DeviceManager")
 @class CBService;
 @class CBCharacteristic;
 
-@interface A5DeviceManager (SWIFT_EXTENSION(Activ5DeviceDev)) <CBPeripheralDelegate>
+@interface A5DeviceManager (SWIFT_EXTENSION(Activ5Device)) <CBPeripheralDelegate>
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverServices:(NSError * _Nullable)error;
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverCharacteristicsForService:(CBService * _Nonnull)service error:(NSError * _Nullable)error;
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didUpdateValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
@@ -206,7 +206,7 @@ SWIFT_CLASS("_TtC15Activ5DeviceDev15A5DeviceManager")
 @class CBCentralManager;
 @class NSNumber;
 
-@interface A5DeviceManager (SWIFT_EXTENSION(Activ5DeviceDev)) <CBCentralManagerDelegate>
+@interface A5DeviceManager (SWIFT_EXTENSION(Activ5Device)) <CBCentralManagerDelegate>
 - (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
 - (void)centralManager:(CBCentralManager * _Nonnull)central didDiscoverPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *, id> * _Nonnull)advertisementData RSSI:(NSNumber * _Nonnull)RSSI;
 - (void)centralManager:(CBCentralManager * _Nonnull)central didConnectPeripheral:(CBPeripheral * _Nonnull)peripheral;
@@ -403,12 +403,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="Activ5DeviceDev",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="Activ5Device",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 
-SWIFT_CLASS("_TtC15Activ5DeviceDev15A5DeviceManager")
+SWIFT_CLASS("_TtC12Activ5Device15A5DeviceManager")
 @interface A5DeviceManager : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -417,7 +417,7 @@ SWIFT_CLASS("_TtC15Activ5DeviceDev15A5DeviceManager")
 @class CBService;
 @class CBCharacteristic;
 
-@interface A5DeviceManager (SWIFT_EXTENSION(Activ5DeviceDev)) <CBPeripheralDelegate>
+@interface A5DeviceManager (SWIFT_EXTENSION(Activ5Device)) <CBPeripheralDelegate>
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverServices:(NSError * _Nullable)error;
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverCharacteristicsForService:(CBService * _Nonnull)service error:(NSError * _Nullable)error;
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didUpdateValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
@@ -426,7 +426,7 @@ SWIFT_CLASS("_TtC15Activ5DeviceDev15A5DeviceManager")
 @class CBCentralManager;
 @class NSNumber;
 
-@interface A5DeviceManager (SWIFT_EXTENSION(Activ5DeviceDev)) <CBCentralManagerDelegate>
+@interface A5DeviceManager (SWIFT_EXTENSION(Activ5Device)) <CBCentralManagerDelegate>
 - (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
 - (void)centralManager:(CBCentralManager * _Nonnull)central didDiscoverPeripheral:(CBPeripheral * _Nonnull)peripheral advertisementData:(NSDictionary<NSString *, id> * _Nonnull)advertisementData RSSI:(NSNumber * _Nonnull)RSSI;
 - (void)centralManager:(CBCentralManager * _Nonnull)central didConnectPeripheral:(CBPeripheral * _Nonnull)peripheral;

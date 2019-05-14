@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Activ5DeviceDevVersionNumber;
-FOUNDATION_EXPORT const unsigned char Activ5DeviceDevVersionString[];
+FOUNDATION_EXPORT double Activ5DeviceVersionNumber;
+FOUNDATION_EXPORT const unsigned char Activ5DeviceVersionString[];
 

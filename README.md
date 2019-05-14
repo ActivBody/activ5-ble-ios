@@ -148,17 +148,6 @@ func stop()
 func disconnect()
 ```
 
-#### Available Commands
-```swift
-public enum A5Command:String {
-case doHandshake = "TVGTIME"
-case startIsometric = "ISOM!"
-case startHeartRate = "HR!" // Depricated
-case tare = "TARE!"
-case stop = "STOP!"
-}
-```
-
 #### Available Device States
 ```swift
 public enum A5DeviceDataState {
@@ -176,7 +165,6 @@ case disconnected
 static let instance: A5DeviceManager
 static var delegate: A5DeviceDelegate?
 static let bluetoothQueue: DispatchQueue
-static let cbManager: CBCentralManager
 static var devices: [String: A5Device]
 static var connectedDevices: [String: A5Device]
 static var options: A5DeviceManagerOptions
