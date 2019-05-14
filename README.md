@@ -17,7 +17,7 @@ Activ5-Device is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Activ5-Device'
+pod 'Activ5Device'
 ```
 
 # Use of framework
