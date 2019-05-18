@@ -216,4 +216,5 @@ martin-key, martinkuvandzhiev@gmail.com
 
 ## License
 
-Activ5-Device is available under the MIT license. See the LICENSE file for more info.
+Files in activ5-ble-ios/Example/ are available under the Apache License 2.0 license. See the LICENSE file for more info.
+Please contact Activbody inc. when you use the library for commercial purposes.
