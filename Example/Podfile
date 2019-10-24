@@ -1,10 +1,11 @@
 use_frameworks!
 
 target 'Activ5-Device_Example' do
-  pod 'Activ5Device', podspec: 'https://github.com/ActivBody/activ5-ble-ios'
-
+  pod 'Activ5Device'
+  
   target 'Activ5-Device_Tests' do
     inherit! :search_paths
     
   end
 end
+

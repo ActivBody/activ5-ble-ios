@@ -1,16 +1,16 @@
 PODS:
-  - Activ5BLE (0.1.1)
+  - Activ5Device (1.0.1)
 
 DEPENDENCIES:
-  - Activ5BLE (from `../`)
+  - Activ5Device (from `../`)
 
 EXTERNAL SOURCES:
-  Activ5BLE:
-    :podspec: "../"
+  Activ5Device:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Activ5BLE: 85e90031925276b96506fa443d870c3d56e5375a
+  Activ5Device: 6c7018b0047c05c070ae6a8c50aff94face03ab0
 
-PODFILE CHECKSUM: 6353f1b89ab0fe3823f3611afb8080ac253036ff
+PODFILE CHECKSUM: 5b4a36b1de691b19dbaa8fb812aa5d48fae12d22
 
-COCOAPODS: 1.7.0.beta.3
+COCOAPODS: 1.7.2
