@@ -41,5 +41,7 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Activ5 needs to use your BLE connection all the time to operate </string>
 </dict>
 </plist>
