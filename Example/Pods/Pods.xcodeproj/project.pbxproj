@@ -51,26 +51,23 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3376C627F00CB26EB922A3F79BC8A384 /* Pods-Activ5-Device_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Example-Info.plist"; sourceTree = "<group>"; };
 		3AEDEA09B61D8DD836FFE07477F990AD /* Pods-Activ5-Device_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Example.release.xcconfig"; sourceTree = "<group>"; };
-		42EF555F3082DF907CB4057A4DF98DC2 /* Activ5Device.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Activ5Device.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		59DA2DC23F16D86B28E8EAF1BCF36175 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3E4D86E69C877C85E247BCDC7E2FD635 /* Activ5Device-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Activ5Device-Swift.h"; path = "Activ5Device.framework/Headers/Activ5Device-Swift.h"; sourceTree = "<group>"; };
 		5C43547472BBBB44FAA1675BE164B632 /* Pods-Activ5-Device_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5CB535AE4A6B1E5FC6D141AEDBEE2A48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5E2880CA3E4F19A26E62993570D1AE9A /* Pods-Activ5-Device_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Activ5-Device_Example.modulemap"; sourceTree = "<group>"; };
+		76FAEEA371067BA6B03846914F6187DE /* Activ5Device.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Activ5Device.framework; sourceTree = "<group>"; };
 		77AC5435D509C756A2AE8EAF58999271 /* Pods-Activ5-Device_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Activ5-Device_Tests.modulemap"; sourceTree = "<group>"; };
 		7FAE6601F36FBEB294D4D9ED9172B17C /* Pods-Activ5-Device_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Activ5-Device_Tests-umbrella.h"; sourceTree = "<group>"; };
 		83715A79EFF8ABB5A6F3DE75374DA30B /* Pods-Activ5-Device_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Activ5-Device_Example-umbrella.h"; sourceTree = "<group>"; };
 		8AD206068A36B3AB3DAA11E2DBA00B22 /* Pods-Activ5-Device_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Tests-Info.plist"; sourceTree = "<group>"; };
-		998215EBCEB45B1F465783A8B5E990A7 /* Activ5Device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Activ5Device.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A98D1A883C359B4ABAECAED00124E6B6 /* Pods-Activ5-Device_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0BDCFE380ED5FF5ECCAAF35E8CCEF27 /* Pods_Activ5_Device_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Activ5_Device_Tests.framework; path = "Pods-Activ5-Device_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE525570352F2316541692C1406B57E /* Pods-Activ5-Device_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D2A4121213A865A6845470065588B68A /* Pods-Activ5-Device_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Activ5-Device_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBEAFD476D68878A3B007D44D7D53CED /* Pods-Activ5-Device_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Activ5-Device_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DBFD85E8D0D6C62E34DD04AE711B8D71 /* Activ5Device-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Activ5Device-Swift.h"; path = "Activ5Device.framework/Headers/Activ5Device-Swift.h"; sourceTree = "<group>"; };
 		E0A1AFAF33B44C41505263F99BD1040D /* Pods_Activ5_Device_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Activ5_Device_Example.framework; path = "Pods-Activ5-Device_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3C4237359A993300823DAB63A948AE7 /* Activ5Device.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Activ5Device.framework; sourceTree = "<group>"; };
 		ECDAAC9A0875E93AABD4DEF1C59AC084 /* Pods-Activ5-Device_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Activ5-Device_Tests-dummy.m"; sourceTree = "<group>"; };
+		FEAC337215E972936AE831D61533EB69 /* Activ5Device.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Activ5Device.xcconfig; sourceTree = "<group>"; };
 		FF0AE0A921E1FF73CF4B5CEC185D3EAC /* Pods-Activ5-Device_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Activ5-Device_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,16 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		074273DE3A859426B672A7A8D6566EBE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				42EF555F3082DF907CB4057A4DF98DC2 /* Activ5Device.podspec */,
-				59DA2DC23F16D86B28E8EAF1BCF36175 /* LICENSE */,
-				5CB535AE4A6B1E5FC6D141AEDBEE2A48 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		0C8D9CC538426B48E9DBB7DD6EE8A970 /* Pods-Activ5-Device_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,26 +108,6 @@
 			path = "Target Support Files/Pods-Activ5-Device_Example";
 			sourceTree = "<group>";
 		};
-		520FACCB347A28993471D100A705410C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E3C4237359A993300823DAB63A948AE7 /* Activ5Device.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5CAC8E1BD3F6D719CAF6F29EBABA4F99 /* Activ5Device */ = {
-			isa = PBXGroup;
-			children = (
-				DBFD85E8D0D6C62E34DD04AE711B8D71 /* Activ5Device-Swift.h */,
-				520FACCB347A28993471D100A705410C /* Frameworks */,
-				074273DE3A859426B672A7A8D6566EBE /* Pod */,
-				C5B39E76EFD361F69E4FBD442864CAD8 /* Support Files */,
-			);
-			name = Activ5Device;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		91E50F3402E0A4E2C43937B845D8EF82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +115,15 @@
 				C0BDCFE380ED5FF5ECCAAF35E8CCEF27 /* Pods_Activ5_Device_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A71B5F5A64CAC02D6DB36570B2A0AF85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEAC337215E972936AE831D61533EB69 /* Activ5Device.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Activ5Device";
 			sourceTree = "<group>";
 		};
 		BF8B2CC9B0FCED8CBF358A58ECFD1923 /* Pods-Activ5-Device_Tests */ = {
@@ -174,13 +150,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C5B39E76EFD361F69E4FBD442864CAD8 /* Support Files */ = {
+		C1B33457ABCA903F42E05CBD2464D1EE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				998215EBCEB45B1F465783A8B5E990A7 /* Activ5Device.xcconfig */,
+				DE9D99B968DAD6325EC590E306C94DAA /* Activ5Device */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Activ5Device";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C88C66EEDA076F12F9EC326D6C483FFF /* Targets Support Files */ = {
@@ -196,8 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F3A6449B396FA146B9C6C0D269EEFB38 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C1B33457ABCA903F42E05CBD2464D1EE /* Pods */,
 				91E50F3402E0A4E2C43937B845D8EF82 /* Products */,
 				C88C66EEDA076F12F9EC326D6C483FFF /* Targets Support Files */,
 			);
@@ -211,12 +186,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F3A6449B396FA146B9C6C0D269EEFB38 /* Development Pods */ = {
+		DE9D99B968DAD6325EC590E306C94DAA /* Activ5Device */ = {
 			isa = PBXGroup;
 			children = (
-				5CAC8E1BD3F6D719CAF6F29EBABA4F99 /* Activ5Device */,
+				3E4D86E69C877C85E247BCDC7E2FD635 /* Activ5Device-Swift.h */,
+				E11D4822762F8153EB1E4D9CA4028B5D /* Frameworks */,
+				A71B5F5A64CAC02D6DB36570B2A0AF85 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = Activ5Device;
+			path = Activ5Device;
+			sourceTree = "<group>";
+		};
+		E11D4822762F8153EB1E4D9CA4028B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76FAEEA371067BA6B03846914F6187DE /* Activ5Device.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,7 +347,7 @@
 /* Begin XCBuildConfiguration section */
 		13A45A56416D0F9422AE31821CAF141B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 998215EBCEB45B1F465783A8B5E990A7 /* Activ5Device.xcconfig */;
+			baseConfigurationReference = FEAC337215E972936AE831D61533EB69 /* Activ5Device.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -507,7 +493,7 @@
 		};
 		9C57775E90974EEAFF7AB11BDECA11FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 998215EBCEB45B1F465783A8B5E990A7 /* Activ5Device.xcconfig */;
+			baseConfigurationReference = FEAC337215E972936AE831D61533EB69 /* Activ5Device.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;

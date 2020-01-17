@@ -2,15 +2,15 @@ PODS:
   - Activ5Device (1.0.1)
 
 DEPENDENCIES:
-  - Activ5Device (from `../`)
+  - Activ5Device
 
-EXTERNAL SOURCES:
-  Activ5Device:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Activ5Device
 
 SPEC CHECKSUMS:
-  Activ5Device: 6c7018b0047c05c070ae6a8c50aff94face03ab0
+  Activ5Device: 9cd774f5781cac5c3c58d5198d03c2f11b925e22
 
-PODFILE CHECKSUM: 5b4a36b1de691b19dbaa8fb812aa5d48fae12d22
+PODFILE CHECKSUM: d601347363a43c2c1a8abdf45e1fe3ced086706b
 
 COCOAPODS: 1.7.2

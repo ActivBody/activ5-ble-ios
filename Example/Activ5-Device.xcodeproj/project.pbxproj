@@ -330,7 +330,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Activ5-Device_Example/Pods-Activ5-Device_Example-frameworks.sh",
-				"${PODS_ROOT}/../../Activ5Device.framework",
+				"${PODS_ROOT}/Activ5Device/Activ5Device.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
