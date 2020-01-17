@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Activ5Device'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Framework used for connection with Activ5 Device'
   s.swift_version    = '5.1'
   
