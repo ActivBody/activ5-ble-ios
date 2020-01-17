@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '10.0'
   s.osx.deployment_target = '10.14'
   
-  s.source = {:http => 'https://github.com/ActivBody/activ5-ble-ios/releases/download/v1.0.1/Activ5Device.zip'}
+  s.source = {:http => 'https://github.com/ActivBody/activ5-ble-ios/releases/download/v1.0.2/Activ5Device.zip'}
   
   s.source_files = 'Activ5Device.framework/Headers/Activ5Device-Swift.h'
   s.vendored_frameworks = 'Activ5Device.framework'
