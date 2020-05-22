@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1.3 effective-4.2 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-compiler-version: Apple Swift version 5.2.4 effective-4.2 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -module-name Activ5Device
 @_exported import Activ5Device
 import CoreBluetooth
@@ -38,7 +38,7 @@ public class A5Device {
   public var deviceVersion: Swift.String?
   public var evergreenMode: Swift.Bool {
     get
-    set(newValue)
+    set(value)
   }
   public var connected: Swift.Bool {
     get
@@ -100,7 +100,7 @@ extension A5DeviceDelegate {
   public func didChangeBluetoothState(_ state: CoreBluetooth.CBManagerState)
   public func bluetoothIsSwitchedOff()
 }
-@objc public class A5DeviceManager : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers public class A5DeviceManager : ObjectiveC.NSObject {
   public static var instance: Activ5Device.A5DeviceManager
   public static var delegate: Activ5Device.A5DeviceDelegate?
   public static var cbManager: CoreBluetooth.CBCentralManager
@@ -112,8 +112,8 @@ extension A5DeviceDelegate {
   public class func connect(device: CoreBluetooth.CBPeripheral)
   public class func disconnect(device: CoreBluetooth.CBPeripheral)
   public class func device(for peripheral: CoreBluetooth.CBPeripheral) -> (key: Swift.String, value: Activ5Device.A5Device)?
-  @objc override dynamic public init()
   @objc deinit
+  @objc override dynamic public init()
 }
 extension A5DeviceManager : CoreBluetooth.CBCentralManagerDelegate {
   @objc dynamic public func centralManagerDidUpdateState(_ central: CoreBluetooth.CBCentralManager)
@@ -150,7 +150,7 @@ public enum MessageType : Swift.String {
     get
   }
 }
-public class MessageParser {
+@_hasMissingDesignatedInitializers public class MessageParser {
   public class func parseMessage(characteristic: CoreBluetooth.CBCharacteristic) -> (type: Activ5Device.MessageType, value: Any?)
   public class func parseLegacyMessage(_ message: Swift.String?) -> (type: Activ5Device.MessageType, value: Any?)
   public class func parseValue(data: Foundation.Data) -> Swift.Int

@@ -118,6 +118,10 @@ extension ViewController: UITableViewDelegate {
 }
 
 extension ViewController: A5DeviceDelegate {
+    func deviceInitialized(device: A5Device) {
+        
+    }
+    
     func searchCompleted() {
         self.statusLabel.text = "Search completed"
     }

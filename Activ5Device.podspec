@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Activ5Device'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Framework used for connection with Activ5 Device'
-  s.swift_version    = '5.1'
+  s.swift_version    = '5.2'
   
   s.description      = <<-DESC
   TODO: Add long description of the pod here.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '10.0'
   s.osx.deployment_target = '10.14'
   
-  s.source = {:http => 'https://github.com/ActivBody/activ5-ble-ios/releases/download/v1.0.2/Activ5Device.zip'}
+  s.source = {:http => 'https://github.com/ActivBody/activ5-ble-ios/releases/download/v1.0.3/Activ5Device.zip'}
   
   s.source_files = 'Activ5Device.framework/Headers/Activ5Device-Swift.h'
   s.vendored_frameworks = 'Activ5Device.framework'
